@@ -24,7 +24,7 @@ _.picture-berlin {
 }
 
 .picture-berlin {
-  border: 30px solid white;
+  border: 20px solid white;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -34,6 +34,11 @@ _.picture-berlin {
 }
 
 .caption {
-  text-align: center;
+  _text-align: center;
+  position: relative;
+  left: 400px;
+  top: -55px;
+  transform: rotate(-3deg);
   padding: 1rem;
+  font-family: "Caveat", cursive;
 }
